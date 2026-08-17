@@ -1,0 +1,89 @@
+.title{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Sekuya", system-ui;
+    color: rgb(234, 192, 141);
+    -webkit-text-stroke: 0.5px rgb(255, 209, 109);
+    letter-spacing: 7px;
+}
+
+.heardof{
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2.3px;
+    color: rgb(96, 27, 27);
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.image-holder{
+    display: grid;
+    grid-template-columns: 25vw;
+}
+
+.web-body{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(209, 108, 108);
+    border: 5px double rgb(255, 209, 109);
+}
+
+.flex1{
+    width:24%;
+}
+
+.flex2{
+    width: 74%;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.happy{
+    font-family: "Fraunces", serif;
+    font-size: 20px;
+    color: rgb(121, 43, 43);
+}
+
+body{
+    background-color: rgb(147, 70, 70);
+}
+
+.reasons-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.golden-border{
+    background: rgb(217, 126, 126);
+    border: 0.5px rgb(234, 192, 141) solid;
+}
+
+.border{
+    text-align: center;
+    color: rgb(255, 209, 109);
+}
+
+li{
+    font-family: "Fraunces", serif;
+    color:rgb(98, 24, 24);
+}
+
+h3{
+    font-family: "Libre Baskerville", serif;
+    color: rgb(107, 23, 23);
+    font-weight: 700;
+}
+
+a{
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    display: block;
+}
