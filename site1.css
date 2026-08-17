@@ -1,0 +1,82 @@
+.container-div{
+    background-color: rgb(58, 51, 47);
+    height: 97vh;
+    margin: auto;
+    overflow: auto;
+}
+
+body{
+    background-color: rgb(37, 35, 33);;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color:rgb(255, 241, 223);
+    font-family: "Gravitas One", serif;
+}
+
+h2{
+    color:rgb(234, 203, 166);
+    font-family: "Gravitas One", serif;
+}
+
+p{
+    color:rgb(190, 168, 141);
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+}
+
+li{
+    color:rgb(190, 168, 141);
+    font-family: "Mukta", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+a{
+    color:rgb(192, 255, 234);
+}
+
+h3{
+    color:bisque;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    font-family: "Bodoni Moda", serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-inner{
+    width: 49%;
+    background-color: rgb(81, 72, 67);
+    box-sizing: border-box;
+    padding: 5px;
+    height: 70vh;
+    overflow: auto;
+}
+
+.border{
+    border-color:bisque;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.album-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 2%;
+    align-content: center;
+}
+
+.album{
+    width: 95%;
+    margin: auto;
+}
