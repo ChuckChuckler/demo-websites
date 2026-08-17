@@ -9,7 +9,7 @@ body{
     background-color: rgb(37, 35, 33);;
 }
 
-h1,h2{
+h1,h2,h3{
     text-align: center;
 }
 
@@ -67,6 +67,12 @@ h3{
     border-color:bisque;
     border-width: 1px;
     border-style: solid;
+}
+
+.banner-img{
+    display: block;
+    margin: auto;
+    object-fit: cover;
 }
 
 .album-grid{
